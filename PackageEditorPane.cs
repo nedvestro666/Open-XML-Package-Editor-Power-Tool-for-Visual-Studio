@@ -2414,7 +2414,8 @@ namespace Microsoft.OpenXMLEditor
                 {
                     // FindToolWindow fails sometimes if the property window is collapsed.
                     // Fire the PROPPAGE command key instead.
-                    EnvDTE.DTE dte = (EnvDTE.DTE)GetVsService(typeof(EnvDTE._DTE));
+                    EnvDTE80.DTE2 dte = (EnvDTE80.DTE2)GetVsService(typeof(EnvDTE._DTE));
+
                     if (dte != null)
                         dte.ExecuteCommand("View.PropertiesWindow", "");
                 }
