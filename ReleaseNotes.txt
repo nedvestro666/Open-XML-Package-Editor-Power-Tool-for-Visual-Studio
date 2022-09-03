@@ -1,4 +1,7 @@
-﻿v.2.0.0
+﻿v.2.0.1
+Fix `Show Properties` buttons throwing exception in Visual Studio 2022.
+
+v.2.0.0
 Add support for Visual Studio 2022
 Drop support for Visual Studio 2015 and below. You can install compatible version from https://github.com/bsivanov/Open-XML-Package-Editor-Power-Tool-for-Visual-Studio/releases/tag/v1.1.0.
 
